@@ -8,8 +8,6 @@
         tokens.push(randomInt);
       }
 
-      const tokenOutput = "Random Tokens: " + tokens.join("-");
-
-    console.log("Token:" + tokenOutput);
+    console.log("Token:" + tokens + tokens.join("-"));
     }
 
