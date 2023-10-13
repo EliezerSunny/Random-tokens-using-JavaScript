@@ -2,7 +2,7 @@
   // <div id="tokenOutput"></div>
   // <button onclick="generateTokens()">Generate Tokens</button>
 
-  <script>
+  // <script>
     function generateTokens() {
       const tokens = [];
       for (let i = 0; i < 5; i++) {
@@ -13,4 +13,4 @@
       const tokenOutput = document.getElementById("tokenOutput");
       tokenOutput.innerHTML = "Random Integer Tokens: " + tokens.join("-");
     }
-  </script>
+ // </script>
