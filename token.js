@@ -10,6 +10,6 @@
 
     const tokenOutput = tokens.join("-");
 
-    console.log("Token:" + tokenOutput);
+    console.log("Token: " + tokenOutput);
    // }
 
