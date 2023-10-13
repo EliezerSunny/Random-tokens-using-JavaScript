@@ -1,8 +1,6 @@
 
-  // <div id="tokenOutput"></div>
-  // <button onclick="generateTokens()">Generate Tokens</button>
+  console.log("Random tokens");
 
-  // <script>
     function generateTokens() {
       const tokens = [];
       for (let i = 0; i < 5; i++) {
@@ -10,7 +8,8 @@
         tokens.push(randomInt);
       }
 
-      const tokenOutput = document.getElementById("tokenOutput");
-      tokenOutput.innerHTML = "Random Integer Tokens: " + tokens.join("-");
+      const tokenOutput = "Random Tokens: " + tokens.join("-");
+
+    console.log("Token:" + tokenOutput);
     }
- // </script>
+
